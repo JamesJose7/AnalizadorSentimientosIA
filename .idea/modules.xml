@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Analizador de sentimientos.iml" filepath="$PROJECT_DIR$/.idea/modules/Analizador de sentimientos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Analizador_de_sentimientos.iml" filepath="$PROJECT_DIR$/.idea/modules/Analizador_de_sentimientos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Analizador_de_sentimientos_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Analizador_de_sentimientos_main.iml" group="Analizador_de_sentimientos" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Analizador_de_sentimientos_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Analizador_de_sentimientos_test.iml" group="Analizador_de_sentimientos" />
+    </modules>
+  </component>
+</project>
