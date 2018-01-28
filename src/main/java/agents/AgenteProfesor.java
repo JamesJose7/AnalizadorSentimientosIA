@@ -22,13 +22,6 @@ public class AgenteProfesor extends Agent implements ProfesorGUI.ProfesorInterfa
 
     @Override
     public void capturarTweets() {
-        /*ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-        msg.setContent( "Ping" );
-        for (int i = 1; i<=2; i++)
-            msg.addReceiver( new AID( "a" + i, AID.ISLOCALNAME) );
-
-        send(msg);*/
-
         ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
         msg.setContent("Capturar");
         msg.addReceiver( new AID( "capturador", AID.ISLOCALNAME) );

@@ -5,11 +5,7 @@ import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
 import jade.lang.acl.UnreadableException;
-import twitter.TwitterApiConf;
-import twitter4j.*;
 
-import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 public class AgenteAnalizadorSentimientos extends Agent {
