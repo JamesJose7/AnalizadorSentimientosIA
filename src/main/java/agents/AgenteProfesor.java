@@ -11,11 +11,13 @@ import java.awt.*;
 
 public class AgenteProfesor extends Agent implements ProfesorGUI.ProfesorInterface {
 
+    private ProfesorGUI mProfesorGUI;
+
     public void setup() {
         addBehaviour(new SenderBehaviour(this));
         // Send messages to "a1" and "a2"
-        ProfesorGUI profesorGUI = new ProfesorGUI(this);
-        profesorGUI.showGUI();
+        mProfesorGUI = new ProfesorGUI(this);
+        mProfesorGUI.showGUI();
     }
 
     @Override
@@ -48,10 +50,13 @@ public class AgenteProfesor extends Agent implements ProfesorGUI.ProfesorInterfa
         @Override
         public void action() {
             ACLMessage msg = receive();
-            if (msg != null)
+            if (msg != null) {
                 System.out.println("== Respuesta" + " <- "
-                    + msg.getContent() + " de "
-                    + msg.getSender().getName());
+                        + msg.getContent() + " de "
+                        + msg.getSender().getName());
+
+                mProfesorGUI.getSentimientosPromedioField().setText(msg.getContent());
+            }
             block();
         }
     }

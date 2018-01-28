@@ -20,7 +20,6 @@ public class ProfesorGUI extends JFrame {
     public ProfesorGUI(ProfesorInterface profInterface) {
         mProfesorInterface = profInterface;
         initComponents();
-
     }
 
     public void showGUI() {
@@ -96,5 +95,9 @@ public class ProfesorGUI extends JFrame {
     private void capturarTweetsButtonActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         mProfesorInterface.capturarTweets();
+    }
+
+    public JTextField getSentimientosPromedioField() {
+        return sentimientosPromedioField;
     }
 }
