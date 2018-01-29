@@ -1,0 +1,1 @@
+java -jar Analizador.jar -gui "profesor:agents.AgenteProfesor;capturador:agents.AgenteCapturadorTweets;estudiante:agents.AgenteEstudiante;analizador:agents.AgenteAnalizadorSentimientos"
