@@ -32,6 +32,7 @@ public class EstudianteGUI extends JFrame {
         enviarButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jLabel1.setText("Estudiante");
 
