@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60829fe9-3438-4c20-bb0a-fd9ea1064ac3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/APDescription.txt" afterPath="$PROJECT_DIR$/APDescription.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/agents/AgenteOP$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/agents/AgenteOP$TypicalBehaviour.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/agents/AgenteOP.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/agents/Pong.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/agents/AgenteAnalizadorSentimientos.java" afterPath="$PROJECT_DIR$/src/main/java/agents/AgenteAnalizadorSentimientos.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Run.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/ProfesorGUI.java" afterPath="$PROJECT_DIR$/src/main/java/gui/ProfesorGUI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -95,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnalizadorSentimientos.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnalizadorSentimientos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/analizador/AnalizadorSentimientos.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1314">
@@ -129,18 +125,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfesorGUI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProfesorGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/ProfesorGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="643">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding>
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#1318#1319#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#4588#4589#0" expanded="true" />
-                <element signature="e#4636#4637#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1824#1825#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#5094#5095#0" expanded="true" />
+                <element signature="e#5142#5143#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -485,12 +481,12 @@
         <option value="$PROJECT_DIR$/src/main/java/agents/AgenteEstudiante.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/agents/Pong.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/ProfesorGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/agents/AgenteCapturadorTweets.java" />
         <option value="$PROJECT_DIR$/src/main/java/agents/AgenteProfesor.java" />
         <option value="$PROJECT_DIR$/src/main/java/agents/analizador/AnalizadorSentimientos.java" />
         <option value="$PROJECT_DIR$/src/main/java/agents/AgenteAnalizadorSentimientos.java" />
         <option value="$PROJECT_DIR$/src/main/java/analizador/AnalizadorSentimientos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/ProfesorGUI.java" />
       </list>
     </option>
   </component>
@@ -758,12 +754,12 @@
       <workItem from="1516902473745" duration="369000" />
       <workItem from="1517093060159" duration="7801000" />
       <workItem from="1517101375365" duration="13445000" />
-      <workItem from="1517187026775" duration="1233000" />
+      <workItem from="1517187026775" duration="1470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23792000" />
+    <option name="totallyTimeSpent" value="24029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2582" height="1402" extended-state="6" />
@@ -899,12 +895,12 @@
         <state relative-caret-position="682">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4636#4637#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#5094#5095#0" expanded="true" />
+            <element signature="e#5142#5143#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -988,9 +984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,16 +1047,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/Profesor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ingenias/jade/4.3/2cf02ba26058230c72da969100a3c2e2e7f06628/jade-4.3.jar!/jade/core/Agent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1100,21 +1084,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1141#1142#0" expanded="true" />
             <element signature="e#1173#1174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/ProfesorGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
-            <element signature="e#4636#4637#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1218,6 +1187,29 @@
             <element signature="e#2098#2099#0" expanded="true" />
             <element signature="e#2137#2138#0" expanded="true" />
             <element signature="e#2172#2173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/ProfesorGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#5094#5095#0" expanded="true" />
+            <element signature="e#5142#5143#0" expanded="true" />
           </folding>
         </state>
       </provider>
