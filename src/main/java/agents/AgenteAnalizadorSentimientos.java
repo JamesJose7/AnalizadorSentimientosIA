@@ -1,5 +1,6 @@
 package agents;
 
+import analizador.AnalizadorSentimientos;
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
@@ -31,9 +32,13 @@ public class AgenteAnalizadorSentimientos extends Agent {
                     List<String> list = (List<String>) msg.getContentObject();
                     System.out.println(list);
 
+                    //Analizar sentimientos
+                    AnalizadorSentimientos analizador = new AnalizadorSentimientos(list);
+                    String resultado = analizador.analizarSentimientos();
+
                     //Enviar sentimiento a profesor
                     ACLMessage sentimientosMensaje = new ACLMessage(ACLMessage.INFORM);
-                    sentimientosMensaje.setContent("Sentimientos> " +list.size());
+                    sentimientosMensaje.setContent(resultado);
                     sentimientosMensaje.addReceiver( new AID( "profesor", AID.ISLOCALNAME) );
                     send(sentimientosMensaje);
                 } catch (UnreadableException e) {
