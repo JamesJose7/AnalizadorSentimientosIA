@@ -1,1 +1,1 @@
-java -jar Analizador.jar -gui "profesor:agents.AgenteProfesor;capturador:agents.AgenteCapturadorTweets;estudiante:agents.AgenteEstudiante;analizador:agents.AgenteAnalizadorSentimientos"
+java -jar "Analizador de sentimientos-all-1.0-SNAPSHOT.jar" -gui "profesor:agents.AgenteProfesor;capturador:agents.AgenteCapturadorTweets;estudiante:agents.AgenteEstudiante;analizador:agents.AgenteAnalizadorSentimientos"
